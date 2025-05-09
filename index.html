@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Corregedoria - Polícia Civil</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1>Corregedoria Geral da Polícia Civil</h1>
+    <nav>
+      <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#membros">Membros</a></li>
+        <li><a href="#estatisticas">Estatísticas</a></li>
+        <li><a href="#denuncia">Denúncia</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="sobre">
+      <h2>Sobre a Corregedoria</h2>
+      <p>A Corregedoria Geral da Polícia Civil tem como missão fiscalizar a atuação dos policiais civis, garantindo que o serviço seja prestado com ética, responsabilidade e dentro da legalidade.</p>
+    </section>
+
+    <section id="membros">
+      <h2>Membros da Corregedoria</h2>
+      <ul class="cards">
+        <li><strong>Corregedor-Geral:</strong> João Silva</li>
+        <li><strong>Subcorregedor:</strong> Marcos Oliveira</li>
+        <li><strong>Investigador Responsável:</strong> Carla Mendes</li>
+      </ul>
+    </section>
+
+    <section id="estatisticas">
+      <h2>Estatísticas</h2>
+      <ul>
+        <li>🔍 Investigações Ativas: 12</li>
+        <li>✔️ Processos Finalizados: 35</li>
+        <li>🚔 Policiais Afastados: 4</li>
+      </ul>
+    </section>
+
+    <section id="denuncia">
+      <h2>Enviar Denúncia</h2>
+      <form id="formDenuncia">
+        <label for="nome">Seu nome (opcional):</label>
+        <input type="text" id="nome" name="nome" />
+
+        <label for="denuncia">Detalhes da denúncia:</label>
+        <textarea id="denuncia" name="denuncia" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+      <p id="confirmacao"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Corregedoria da Polícia Civil - FiveM RP</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
